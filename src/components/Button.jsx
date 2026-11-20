@@ -1,7 +1,7 @@
 import React from "react";
 
 const Button = ({ text, color = 'gray', children = null }) => {
-  const onClickButton =()=>{
+  const onClickButton = () => {
     console.log(text)
   }
   return (

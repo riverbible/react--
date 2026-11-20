@@ -23,11 +23,11 @@ const Menu = () => {
   ]
 
   return (
-    <div>
+    <div className='menu'>
       <h2>오늘의 빵</h2>
       <ul className="list">
-        {menus.map((menu)=>(
-          <MenuCard {...menu}/>
+        {menus.map((menu,i)=>(
+          <MenuCard key={i} {...menu}/>
         ))}
       </ul>
     </div>

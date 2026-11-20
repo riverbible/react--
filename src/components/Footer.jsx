@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = ({address,hours}) => {
   return (
     <footer>
-      {address}
-      {hours}
+      <p>{address}</p>
+      <p>{hours}</p>
     </footer>
   )
 }

@@ -2,7 +2,7 @@ import './App.css';
 import Button from './components/Button';
 import Main from './components/Main';
 import MenuButton from './components/MenuButton';
-import InputCard from './components/InputCard';
+import InputCard from './components/inputCard';
 import PostItem from './components/PostItem';
 
 function App() {
@@ -40,7 +40,7 @@ function App() {
       {posts.map((post) => (
         <PostItem key={post.id} {...post} />
       ))}
-      {/* <InputCard {...inputInfo} />
+      <InputCard {...inputInfo} />
       {menus.map((menu) => (
         <MenuButton key={menu.id} {...menu} />
       ))}
@@ -52,7 +52,7 @@ function App() {
       <Button text={'카페'} color={"blue"}>
         <strong>중요</strong>
       </Button>
-      <Button text={'블로그'} /> */}
+      <Button text={'블로그'} />
     </>
   )
 }

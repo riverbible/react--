@@ -1,9 +1,12 @@
 import React from 'react'
 
 const PostItem = ({ title, author }) => {
+  const onClickButton =()=>{
+    console.log(title)
+  }
   return (
     <div>
-      <button onClick={console.log(title)}>{title}</button>
+      <button onClick={onClickButton}>{title}</button>
       {author}
     </div>
   )

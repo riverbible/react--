@@ -1,15 +1,14 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
 import './App.css'
+import SqureCalc from './components/SquareCalc'
+import SortTableList from './components/SortTableList'
+import PeopleList from './components/PeopleList'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      
+      {/* <SqureCalc/> */}
+      {/* <SortTableList/> */}
+      <PeopleList/>
     </>
   )
 }
